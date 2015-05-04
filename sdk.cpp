@@ -218,6 +218,7 @@ int main(int argc, char* argv[]) {
 do{
 	cout<<"What do you want to do next?"<<endl;
 	cout<<"Game rules --> rules."<<endl;
+	cout<<"Game history --> history."<<endl;
 	cout<<"Change a number --> change."<<endl;
 	cout<<"Delete a number --> delete."<<endl;
 	cout<<"Print saved sudoku --> print."<<endl;
@@ -309,6 +310,20 @@ do{
 	else if (ans=="print")
 	{
 		print(mat);
+	}
+	else if(ans=="history")
+	{
+		cout<<""<<endl;
+		cout<<WHITE<<"Although the birth of the game is not very clear everything seems to indicate that the famous Swiss mathematician Leonhard Euler,"<<endl;
+		cout<<"the same year he died (1783) devised what is now known as Sudoku, associated with magic squares called."<<endl;
+		cout<<"It was not until 1970 that would reach the public in New Cork in the hands of Walter Mackey Magazine"<<endl;
+		cout<<"hobbies Math Puzzles and Logic Problems and under the name of Number Place. Later in 1984, she appears in the press"<<endl;
+		cout<<"Japanese under the name Suji wa dokushin or kagiru, although the name was not shopping for what happened to"<<endl;
+		cout<<"called Sudoku, which in Japanese is only number (Su: number, Doku: only). More recently, in 1997 Wayne Gould,"<<endl;
+		cout<<"New Zealand judge during a visit to Hong Kong and discovered some sudokus prepared for the British newspaper The Times,"<<endl;
+		cout<<"but they were not published until 2004, becoming the mass phenomenon it is today and extending newspapers"<<endl;
+		cout<<"and publications around the world, including the Spanish."<<endl;
+		cout<<""<<endl;
 	}
 	else if(ans!="quit")
 	{
